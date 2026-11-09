@@ -1,4 +1,4 @@
-"""Shared fixtures. Every test runs offline: the LLM is a fake."""
+"""Shared fixtures. Every test runs offline: the LLM and transcriber are fakes."""
 
 from __future__ import annotations
 
@@ -12,7 +12,7 @@ from fastapi.testclient import TestClient
 
 from app.config import Settings
 from app.config import get_settings as real_get_settings
-from app.main import app, get_llm_client
+from app.main import app, get_llm_client, get_transcriber
 
 
 def make_settings(**overrides: Any) -> Settings:
@@ -75,11 +75,15 @@ def settings() -> Settings:
 def make_client(settings: Settings) -> Iterator[Callable[..., TestClient]]:
     """Factory: build a TestClient wired to the given fake LLM (and optional overrides)."""
 
-    def factory(llm: Any | None = None, **setting_overrides: Any) -> TestClient:
+    def factory(
+        llm: Any | None = None, transcriber: Any | None = None, **setting_overrides: Any
+    ) -> TestClient:
         effective = replace(settings, **setting_overrides)
         app.dependency_overrides[real_get_settings] = lambda: effective
         if llm is not None:
             app.dependency_overrides[get_llm_client] = lambda: llm
+        if transcriber is not None:
+            app.dependency_overrides[get_transcriber] = lambda: transcriber
         return TestClient(app, raise_server_exceptions=False)
 
     yield factory
