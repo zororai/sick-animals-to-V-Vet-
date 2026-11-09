@@ -1,0 +1,12 @@
+{"message": "My cow has not been eating since yesterday and she is breathing very fast.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "has not been eating since yesterday"}, {"sign_id": "rapid_breathing", "value": "yes", "quote": "breathing very fast"}]}
+{"message": "There's foam coming from her nose and she can't get up.", "findings": [{"sign_id": "froth_nose_mouth", "value": "yes", "quote": "foam coming from her nose"}, {"sign_id": "unable_to_stand", "value": "yes", "quote": "she can't get up"}]}
+{"message": "I think the eyes look a bit cloudy but I'm not sure. She has mbandabvu under the ear.", "findings": [{"sign_id": "cloudy_eye", "value": "not_sure", "quote": "I think the eyes look a bit cloudy but I'm not sure"}, {"sign_id": "swelling", "value": "yes", "quote": "mbandabvu under the ear"}]}
+{"message": "The calf is fine, just lots of ticks on the ears.", "findings": [{"sign_id": "ticks", "value": "yes", "quote": "lots of ticks on the ears"}]}
+{"message": "Mombe yangu haisi kudya, and her urine is dark like tea.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "haisi kudya"}, {"sign_id": "red_urine", "value": "yes", "quote": "urine is dark like tea"}]}
+{"message": "My cow is eating normally.", "findings": [{"sign_id": "reduced_appetite", "value": "no", "quote": "eating normally"}]}
+{"message": "I think the eye looks cloudy, but I'm not sure.", "findings": [{"sign_id": "cloudy_eye", "value": "not_sure", "quote": "I think the eye looks cloudy, but I'm not sure"}]}
+{"message": "There's foam coming from the nose.", "findings": [{"sign_id": "froth_nose_mouth", "value": "yes", "quote": "foam coming from the nose"}]}
+{"message": "Mombe yangu haisi kudya.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "haisi kudya"}]}
+{"message": "The goat is weak and lies down all day, no froth from the mouth though.", "findings": [{"sign_id": "weakness", "value": "yes", "quote": "weak and lies down all day"}, {"sign_id": "froth_nose_mouth", "value": "no", "quote": "no froth from the mouth"}]}
+{"message": "Good morning doctor, when are you coming to vaccinate?", "findings": []}
+{"message": "Mhuru yangu haikwanisi kumira and maybe there is a lump under the jaw.", "findings": [{"sign_id": "unable_to_stand", "value": "yes", "quote": "haikwanisi kumira"}, {"sign_id": "swelling", "value": "not_sure", "quote": "maybe there is a lump under the jaw"}]}
