@@ -221,6 +221,29 @@ def test_locate_quote(quote: str, expected: str | None) -> None:
     assert locate_quote(quote, "My cow has stopped eating.") == expected
 
 
+@pytest.mark.parametrize(
+    ("quote", "expected"),
+    [
+        ("haisikudya", "haisi kudya"),  # LLM dropped the space: original span returned
+        ("Mombe yangu haisikudya", "Mombe yangu haisi kudya"),
+        ("haisi kudy a", "haisi kudya"),  # extra space
+        ("haisi kudza", None),  # a different letter is still rejected
+        ("kudya haisi", None),  # word order still matters
+    ],
+)
+def test_locate_quote_ignores_whitespace_only(quote: str, expected: str | None) -> None:
+    assert locate_quote(quote, "Mombe yangu haisi kudya, and her urine is dark like tea.") == expected
+
+
+def test_shona_quote_without_space_is_accepted_and_returned_verbatim() -> None:
+    message = "Mombe yangu haisi kudya."
+    findings = parse_llm_output(
+        '{"findings":[{"sign_id":"reduced_appetite","value":"yes","quote":"haisikudya"}]}',
+        message,
+    )
+    assert findings[0].quote == "haisi kudya"
+
+
 def test_locate_quote_handles_curly_apostrophes() -> None:
     message = "There’s foam and she can’t get up"
     assert locate_quote("she can't get up", message) == "she can’t get up"

@@ -10,3 +10,30 @@
 {"message": "The goat is weak and lies down all day, no froth from the mouth though.", "findings": [{"sign_id": "weakness", "value": "yes", "quote": "weak and lies down all day"}, {"sign_id": "froth_nose_mouth", "value": "no", "quote": "no froth from the mouth"}]}
 {"message": "Good morning doctor, when are you coming to vaccinate?", "findings": []}
 {"message": "Mhuru yangu haikwanisi kumira and maybe there is a lump under the jaw.", "findings": [{"sign_id": "unable_to_stand", "value": "yes", "quote": "haikwanisi kumira"}, {"sign_id": "swelling", "value": "not_sure", "quote": "maybe there is a lump under the jaw"}]}
+{"message": "Mombe yangu haisi kudya uye ine furo mumhino.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "haisi kudya"}, {"sign_id": "froth_nose_mouth", "value": "yes", "quote": "furo mumhino"}]}
+{"message": "Mhuru haikwanisi kumira kubva mangwanani.", "findings": [{"sign_id": "unable_to_stand", "value": "yes", "quote": "haikwanisi kumira"}]}
+{"message": "Ine mbandabvu pasi pezheve.", "findings": [{"sign_id": "swelling", "value": "yes", "quote": "mbandabvu pasi pezheve"}]}
+{"message": "Mbudzi yangu ine zvikwekwe zvakawanda.", "findings": [{"sign_id": "ticks", "value": "yes", "quote": "zvikwekwe zvakawanda"}]}
+{"message": "Weti yayo yakatsvuka setii.", "findings": [{"sign_id": "red_urine", "value": "yes", "quote": "Weti yayo yakatsvuka setii"}]}
+{"message": "Iri kufema nekukurumidza uye haina simba.", "findings": [{"sign_id": "rapid_breathing", "value": "yes", "quote": "kufema nekukurumidza"}, {"sign_id": "weakness", "value": "yes", "quote": "haina simba"}]}
+{"message": "Handina chokwadi asi ziso rayo rinenge rakachena.", "findings": [{"sign_id": "cloudy_eye", "value": "not_sure", "quote": "Handina chokwadi asi ziso rayo rinenge rakachena"}]}
+{"message": "Iri kudya zvakanaka, hapana furo mumuromo.", "findings": [{"sign_id": "reduced_appetite", "value": "no", "quote": "kudya zvakanaka"}, {"sign_id": "froth_nose_mouth", "value": "no", "quote": "hapana furo mumuromo"}]}
+{"message": "Mangwanani chiremba, muchauya riini?", "findings": []}
+{"message": "Haina zvikwekwe, asi haisi kudya.", "findings": [{"sign_id": "ticks", "value": "no", "quote": "Haina zvikwekwe"}, {"sign_id": "reduced_appetite", "value": "yes", "quote": "haisi kudya"}]}
+{"message": "Inkomo yami kayidli.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "kayidli"}]}
+{"message": "Inkomo yami ayikwazi ukusukuma.", "findings": [{"sign_id": "unable_to_stand", "value": "yes", "quote": "ayikwazi ukusukuma"}]}
+{"message": "Ilegwebu emakhaleni.", "findings": [{"sign_id": "froth_nose_mouth", "value": "yes", "quote": "Ilegwebu emakhaleni"}]}
+{"message": "Imbuzi yami ilemikhaza eminengi.", "findings": [{"sign_id": "ticks", "value": "yes", "quote": "ilemikhaza eminengi"}]}
+{"message": "Umchamo wayo ubomvu njengetiye.", "findings": [{"sign_id": "red_urine", "value": "yes", "quote": "Umchamo wayo ubomvu njengetiye"}]}
+{"message": "Iphefumula ngokuphangisa njalo ayilamandla.", "findings": [{"sign_id": "rapid_breathing", "value": "yes", "quote": "Iphefumula ngokuphangisa"}, {"sign_id": "weakness", "value": "yes", "quote": "ayilamandla"}]}
+{"message": "Angiqinisekanga kodwa ilihlo layo lifiphele.", "findings": [{"sign_id": "cloudy_eye", "value": "not_sure", "quote": "Angiqinisekanga kodwa ilihlo layo lifiphele"}]}
+{"message": "Iyadla kahle, akulagwebu emlonyeni.", "findings": [{"sign_id": "reduced_appetite", "value": "no", "quote": "Iyadla kahle"}, {"sign_id": "froth_nose_mouth", "value": "no", "quote": "akulagwebu emlonyeni"}]}
+{"message": "Livukile dokotela, lizafika nini?", "findings": []}
+{"message": "Inkomo yami kayidli and there is mbandabvu under the jaw.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "kayidli"}, {"sign_id": "swelling", "value": "yes", "quote": "mbandabvu under the jaw"}]}
+{"message": "Inkomo yami ayifuni ukudla.", "findings": [{"sign_id": "reduced_appetite", "value": "yes", "quote": "ayifuni ukudla"}]}
+{"message": "Kuphuma igwebu emlonyeni wayo.", "findings": [{"sign_id": "froth_nose_mouth", "value": "yes", "quote": "igwebu emlonyeni"}]}
+{"message": "Ngibona imikhaza ezindlebeni zayo.", "findings": [{"sign_id": "ticks", "value": "yes", "quote": "imikhaza ezindlebeni zayo"}]}
+{"message": "Amehlo ayo amhlophe.", "findings": [{"sign_id": "cloudy_eye", "value": "yes", "quote": "Amehlo ayo amhlophe"}]}
+{"message": "Mhlawumbe kulegwebu emakhaleni, angazi.", "findings": [{"sign_id": "froth_nose_mouth", "value": "not_sure", "quote": "Mhlawumbe kulegwebu emakhaleni, angazi"}]}
+{"message": "Ilele phansi ilanga lonke, ayivuki.", "findings": [{"sign_id": "unable_to_stand", "value": "yes", "quote": "ayivuki"}]}
+{"message": "Akulamikhaza, kodwa ayidli.", "findings": [{"sign_id": "ticks", "value": "no", "quote": "Akulamikhaza"}, {"sign_id": "reduced_appetite", "value": "yes", "quote": "ayidli"}]}
